@@ -48,6 +48,7 @@ at spring-cloud-microservices-hello-world.postman_collection.json**
 Start two new instances of employee-api and payroll-api
 - Employee API instance 2: ``` java -jar '-Dserver.port=9091' .\employee-api\target\employee-api-0.0.1-SNAPSHOT.jar ```
 - Payroll API instance 2: ``` java -jar '-Dserver.port=9051' .\payroll-api\target\payroll-api-0.0.1-SNAPSHOT.jar ```
+- Report API instance 2: ``` java -jar '-Dserver.port=9061' .\report-api\target\report-api-0.0.1-SNAPSHOT.jar ```
 # Registry UI
 Use Eureka Service registry UI to view all the micro service instances http://localhost:8761
 ![EurekaServiceRegistry](EurekaServiceRegistry.PNG "EurekaServiceRegistry")
